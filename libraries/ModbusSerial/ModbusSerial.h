@@ -8,12 +8,6 @@
 #ifndef MODBUSSERIAL_H
 #define MODBUSSERIAL_H
 
-//#define USE_SOFTWARE_SERIAL
-
-#ifdef USE_SOFTWARE_SERIAL
-#include <SoftwareSerial.h>
-#endif
-
 class ModbusSerial : public Modbus {
     private:
         Stream* _port;
