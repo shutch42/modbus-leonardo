@@ -1,3 +1,8 @@
+Modifications
+=============
+
+This is a fork of the modbus-arduino library, modified to work with Modbus RTU over a USB/Serial connection on an Arduino Leonardo. Additional functionality has been removed to keep things simplified.
+
 Modbus Library for Arduino
 ==========================
 
